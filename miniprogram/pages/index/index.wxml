@@ -1,0 +1,19 @@
+<view>
+
+<view class='head'>
+<button bindtap='openFile1'>教学大纲</button>
+<button bindtap='openFile1'>课程教案</button>
+<button bindtap='openFile1'>教学进度表</button>
+<button bindtap='openFile1'>实验进度表</button>
+</view>
+
+<view class='lists'>
+<view class='chap' wx:for="{{lists}}"  wx:key="a" wx:for-item="i" wx:for-index="o">
+<view class='title'>{{i.title}}</view>
+<view class='content' wx:for="{{i.li}}" wx:key="b" wx:for-item="j" wx:for-index="k" bindtap='detail' id='{{o+1}}-{{k+1}}'>
+<text>{{j}}</text>
+</view>
+</view>
+</view>
+
+</view>

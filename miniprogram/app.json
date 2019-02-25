@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mooc/mooc",
+    "pages/mooc/static/1-1/detail",
+    "pages/mooc/static/1-2/detail",
+    "pages/mooc/static/1-3/detail",
+    "pages/mooc/static/1-lab/detail",
+    "pages/mooc/static/2-1/detail",
+    "pages/mooc/static/2-2/detail",
+    "pages/mooc/static/2-3/detail",
+    "pages/mooc/static/2-lab/detail",
+    "pages/mooc/static/3-1/detail",
+    "pages/mooc/static/3-2/detail",
+    "pages/mooc/static/3-lab/detail",
+    "pages/mooc/static/4-1/detail",
+    "pages/mooc/static/4-2/detail",
+    "pages/mooc/static/4-lab/detail",
+    "pages/mooc/dynamic/detail",
+    "pages/index/dynamic/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "杭师大慕课",
+    "navigationBarTextStyle": "black"
+  }
+}

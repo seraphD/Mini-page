@@ -1,0 +1,53 @@
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  width: calc( (100% - 20px)/2 );
+  margin: 5px;
+  float: right;
+  background-color: green;
+  color: white;
+}
+
+.lists {
+  display: inline-block;
+  width: 100%;
+  background-color:lightgray;
+  min-height: 500px;
+}
+
+.title {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.chap {
+  margin: 5px;
+  /* width: calc( (100% - 20px)/2 ); */
+  background-color: white;
+}
+
+.content {
+  display: inline-block;
+  width: calc( 100% - 6px );
+  margin:0px 3px 5px 3px;
+  color: #666;
+  background-color: lightgray;
+}
+
+.contain {
+  display: inline-block;
+  width: calc( 100% - 6px );
+}
+
+.lab {
+  display: inline-block;
+  width: calc( 100% - 6px );
+  margin:0px 3px 5px 3px;
+  background-color: gray;
+  color: white;
+}
+
